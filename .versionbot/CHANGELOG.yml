@@ -1,4 +1,25 @@
 - commits:
+    - subject: WIP
+      hash: e56e7a8d9e94f2d3312a45a1cc8205a0c9e234ca
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stef Kors <stef@balena.io>
+        signed-off-by: Stef Kors <stef@balena.io>
+      author: StefKors
+    - subject: Add support for scrollable tabs
+      hash: 0892b3d1400b2ac228d264143dd0f50cd6e71095
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Stef Kors <stef@balena.io>
+        signed-off-by: Stef Kors <stef@balena.io>
+      author: StefKors
+  version: 15.0.1
+  date: 2020-06-19T08:04:46.031Z
+- commits:
     - subject: fixup font sizes
       hash: 307a54087c62ca303dd1dc3cc87866f80c9f21b2
       body: ''
