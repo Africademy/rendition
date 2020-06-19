@@ -1,6 +1,6 @@
 {
   "name": "rendition",
-  "version": "15.1.5",
+  "version": "15.0.1",
   "description": "React components library",
   "repository": {
     "type": "git",
@@ -61,7 +61,6 @@
     "@balena/lint": "^5.0.4",
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/react": "^5.2.8",
-    "@types/googlemaps": "^3.39.7",
     "@types/highlightjs": "^9.12.0",
     "@types/jest": "^24.0.25",
     "@types/react": "^16.8.8",
@@ -112,7 +111,6 @@
     "@fortawesome/free-regular-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.5",
-    "@react-google-maps/api": "^1.9.7",
     "@types/color": "^3.0.0",
     "@types/json-schema": "^7.0.3",
     "@types/lodash": "^4.14.77",
@@ -132,7 +130,7 @@
     "color": "^3.1.2",
     "color-hash": "^1.0.3",
     "copy-to-clipboard": "^3.0.8",
-    "grommet": "^2.14.0",
+    "grommet": "^2.13.0",
     "highlight.js": "^10.0.3",
     "jellyschema": "^0.11.9",
     "lodash": "^4.17.11",
