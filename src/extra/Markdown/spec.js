@@ -6,7 +6,7 @@ import { Provider } from '../../../dist'
 import { Markdown } from '../../../dist/extra/Markdown'
 import suite from './specsuite'
 
-describe.only('Markdown component', () => {
+describe('Markdown component', () => {
   it('should match the stored snapshot', () => {
     const component = renderer.create(
       <Provider>
@@ -28,9 +28,15 @@ describe.only('Markdown component', () => {
       )
 
       // Unwrap the provider and markdown wrapper to get the HTML inside
-      const result = wrapper.childAt(0).render().children().html().trim()
+      const result = wrapper
+        .childAt(0)
+        .render()
+        .children('div')
+        .children()
+        .html()
+        .trim()
 
-      expect(result).toEqual(testCase.expected)
+      expect(result).toMatchSnapshot()
     })
   })
 })
