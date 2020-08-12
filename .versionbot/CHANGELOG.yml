@@ -1,4 +1,25 @@
 - commits:
+    - subject: Use remark+rehype for md parsing
+      hash: e25ba740a70c65ac6e0900253ae35efc020854d9
+      body: >
+        This enables us to use rendition components for the converted HTML.
+
+        That is, instead of plain markup plus css, we can plug our own
+        components.
+
+        For ex. using rendition `Link` for anchors instead of plain `<a>` tags.
+
+
+        Breaking changes are in styles and `sanitizerOptions` object keys.
+      footer:
+        Change-type: Major
+        change-type: Major
+        Signed-off-by: Amit Solanki <amit@balena.io>
+        signed-off-by: Amit Solanki <amit@balena.io>
+      author: Amit Solanki
+  version: 17.0.0
+  date: 2020-08-12T14:30:49.409Z
+- commits:
     - subject: 'Add: number match on text search'
       hash: 99fbc9f65106febb4d6b2a1100e8e9196fa3229d
       body: >
